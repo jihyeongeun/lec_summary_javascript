@@ -11,3 +11,16 @@ console.log(this);
 
 /* 글로벌 객체가 가진 프로퍼티 확인 */
 console.log(Object.getOwnPropertyDescriptors(global));
+
+/* Infinity */
+console.log(global.Infinity);
+console.log(10/0);
+
+/* NaN */
+console.log(global.NaN);
+console.log(Number('abc'));
+
+/* undefined */
+console.log(global.undefined);
+var nothing;
+console.log(nothing);
